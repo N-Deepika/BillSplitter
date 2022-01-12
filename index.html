@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BillSplitter</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+         BILL SPLITTER
+
+        </div>
+
+        <form class="insert">
+         <div><img id="billgif"src="splitbill.gif" alt="bill split gif">
+          </div>
+          <label id="totalL"><i class="fas fa-coins"></i> Total money?</label>
+          <input type="number" id="total" placeholder="enter the total money">
+      
+           <label id="totalLabel"><i class="fas fa-users"></i> No. of people?</label>
+          <input type="number" id="people" placeholder="enter the number of people">
+          <div class="buttonSpace">
+            <button id="splitBtn">Split</button>
+            <button id="resetBtn">Reset</button>
+          </div>
+          <div id="perpeeps">
+              <p>Per Person:</p>
+              <p id="perPerson">0</p></div>
+        </form>
+      </div>
+</body>
+<script src="script.js"></script>
+</html>
